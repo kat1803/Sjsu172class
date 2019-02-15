@@ -9,3 +9,6 @@ ec2-18-144-7-141.us-west-1.compute.amazonaws.com ansible_user=ec2-user
 
 [dev:vars]
 ansible_ssh_private_key_file=bobgel.pem
+
+[local]
+localhost
